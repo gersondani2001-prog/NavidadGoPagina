@@ -1,10 +1,602 @@
-/*contenedor footer*/
+/*Codigo de estilo en css3 estilos en cascada*/
+
+/* body margin, padding y estilo de border */
+*, body{
+    /*  */
+    padding: 0 !important;
+    margin: 0 !important;
+    /* compatibilidad */
+    box-sizing: border-box;
+    /* edge - safari */
+    -webkit-box-sizing: border-box;
+    /*mozilla - firefox*/
+    -moz-box-sizing: border-box;
+    /*opera*/
+    -o-box-sizing: border-box;
+}
+
+/*letras*/
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+
+/*contenedor 1*/
+.navidad1{
+    background: url("../img/bg.jpg")no-repeat center  !important;
+    background-size: cover !important;
+    height: 600px !important;
+}
+.navidadprincipal{
+    background: rgba(255,0,0,.7) !important;
+    padding: 5% !important;
+}
+.navidadtituloh3{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+
+.navidadtituloh1{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 150px !important;
+}
+.bordertitulo{
+    border: 1px solid #FFF;
+    width: 700px !important;
+    padding: 1% !important;
+    margin: 0 auto !important;
+}
+.navidadtitulop{
+    color: #FFF;
+    font-size: 25px !important;
+}
+.descripcion{
+    padding-top: 8% !important;
+    color: #FFF;
+    font-size: 15px !important;
+}
+.campanas{
+    position: absolute;
+    visibility:visible; 
+    z-index:1;
+    top:450px; 
+    left:570px;
+}
+.santa{
+    position: absolute;
+    visibility:visible; 
+    z-index:1;
+    top:350px; 
+    left:1000px;
+}
+@media (max-width: 1320px ){
+
+    .navidad1{
+        height: 570px !important;
+    }
+    .navidadtituloh3{
+        font-size: 25px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 135px !important;
+    }
+    .navidadtitulop{
+        font-size: 23px !important;
+    }
+    .descripcion{
+        font-size: 14px !important;
+        padding-top: 12% !important;
+    }  
+    .campanas{
+        top:430px !important; 
+        left:470px !important;
+    }
+    .santa{
+        top:400px !important; 
+        left:800px !important;
+    }
+}
+@media (max-width: 1140px ){
+    .navidad1{
+        height: 500px !important;
+    }
+    .navidadtituloh3{
+        font-size: 22px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 120px !important;
+    }
+    .navidadtitulop{
+        font-size: 20px !important;
+    }
+    .descripcion{
+        font-size: 12px !important;
+        padding-top: 10% !important;
+    }  
+    .campanas{
+        top:380px !important; 
+        left:420px !important;
+    }
+    .santa{
+        top:320px !important; 
+        left:800px !important;
+    }
+}
+@media (max-width: 1025px ){
+    .navidad1{
+        height: 450px !important;
+    }
+    .navidadtituloh3{
+        font-size: 18px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 110px !important;
+    }
+    .navidadtitulop{
+        font-size: 15px !important;
+    }
+    .bordertitulo{
+        width: 500px !important ;
+    }
+    .descripcion{
+        font-size: 12px !important;
+        padding-top: 10% !important;
+    }  
+    .campanas{
+        top:320px !important; 
+        left:360px !important;
+    }
+    .santa{
+        top:260px !important; 
+        left:680px !important;
+    }
+}
+@media (max-width: 900px ){
+    .navidad1{
+        height: 450px !important;
+    }
+    .navidadtituloh3{
+        font-size: 18px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 110px !important;
+    }
+    .navidadtitulop{
+        font-size: 15px !important;
+    }
+    .bordertitulo{
+        width: 500px !important ;
+    }
+    .descripcion{
+        font-size: 12px !important;
+        padding-top: 10% !important;
+    }  
+    .campanas{
+        top:320px !important; 
+        left:300px !important;
+    }
+    .santa{
+        top:250px !important; 
+        left:600px !important;
+    }
+}
+@media (max-width: 774px ){
+    .navidad1{
+        height: 350px !important;
+    }
+    .navidadtituloh3{
+        font-size: 15px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 90px !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 400px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 8% !important;
+    }  
+    .campanas{
+        top:235px !important; 
+        left:250px !important;
+        width: 260px;
+    }
+    .santa{
+        top:180px !important; 
+        left:540px !important;
+        width: 220px;
+    }
+}
+@media (max-width: 700px ){
+    .navidad1{
+        height: 350px !important;
+    }
+    .navidadtituloh3{
+        font-size: 15px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 80px !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 350px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 12% !important;
+    }  
+    .campanas{
+        top:235px !important; 
+        left:220px !important;
+        width: 250px;
+    }
+    .santa{
+        top:180px !important; 
+        left:460px !important;
+        width: 210px;
+    }
+}
+@media (max-width: 600px ){
+    .navidad1{
+        height: 350px !important;
+    }
+    .navidadtituloh3{
+        font-size: 15px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 80px !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 350px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 12% !important;
+    }  
+    .campanas{
+        top:235px !important; 
+        left:220px !important;
+        width: 250px;
+    }
+    .santa{
+        top:180px !important; 
+        left:460px !important;
+        width: 210px;
+    }
+}
+@media (max-width: 475px){
+    .navidad1{
+        height: 300px !important;
+    }
+    .navidadtituloh3{
+        font-size: 12px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 50px !important;
+        padding-bottom: 5% !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 250px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 15% !important;
+    }  
+    .campanas{
+        top:225px !important; 
+        left:135px !important;
+        width: 200px;
+    }
+    .santa{
+        top:180px !important; 
+        left:550px !important;
+        width: 125px;
+    }    
+}
+@media (max-width: 420px){
+    .navidad1{
+        height: 250px !important;
+    }
+    .navidadtituloh3{
+        font-size: 12px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 45px !important;
+        padding-bottom: 7% !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 250px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 8% !important;
+    }  
+    .campanas{
+        top:185px !important; 
+        left:115px !important;
+        width: 180px;
+    }
+    .santa{
+        top:200px !important; 
+        left:300px !important;
+        width: 100px;
+    }    
+}
+@media (max-width: 375px){
+    .navidad1{
+        height: 250px !important;
+    }
+    .navidadtituloh3{
+        font-size: 12px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 45px !important;
+        padding-bottom: 7% !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 250px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 8% !important;
+    }  
+    .campanas{
+        top:185px !important; 
+        left:115px !important;
+        width: 180px;
+    }
+    .santa{
+        width: 1px;
+        visibility: hidden;
+    }    
+}
+@media (max-width: 360px){
+    .navidad1{
+        height: 250px !important;
+    }
+    .navidadtituloh3{
+        font-size: 12px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 45px !important;
+        padding-bottom: 7% !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 250px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 8% !important;
+    }  
+    .campanas{
+        top:160px !important; 
+        left:100px !important;
+        width: 180px;
+    }
+    .santa{
+        width: 1px;
+        visibility: hidden;
+    }    
+}
+@media (max-width: 320px){
+    .navidad1{
+        height: 250px !important;
+    }
+    .navidadtituloh3{
+        font-size: 12px !important ;
+    }
+    .navidadtituloh1{
+        font-size: 35px !important;
+        padding-bottom: 10% !important;
+    }
+    .navidadtitulop{
+        font-size: 12px !important;
+    }
+    .bordertitulo{
+        width: 250px !important ;
+    }
+    .descripcion{
+        font-size: 10px !important;
+        padding-top: 15% !important;
+    }  
+    .campanas{
+        top:185px !important; 
+        left:90px !important;
+        width: 150px;
+    }
+    .santa{
+        width: 1px;
+        visibility: hidden;
+    }    
+}
+
+
+
+/*contenedor 2*/
+
+/*servicios*/
+/*estilos del contenedor*/
+.navidadservicios1{
+    padding-top: 8% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5% !important;
+}
+/*titulo principal*/
+.h1tituloservicios{
+    font-size: 35px;
+}
+/*concepto del titulo*/
+.ptituloservicios{
+    font-size: 15px;
+    color: #cccccc;
+    padding: 3% 2% 3% 2% !important;
+}
+/*hr estilo*/
+.hrprincipal{
+    background: #cccccc;
+    width: 5% !important;
+    height: 3px !important;
+    margin: 0 auto !important;
+}
+/*titulo*/
+.tituloservicios{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-top: 3% !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*concepto*/
+.pservicios{
+    font-size: 15px;
+    color: #cccccc;
+    padding-top: 3% !important;
+}
+/*estilos del recuardo*/
+.navidadservicios2, .navidadservicios3{
+    padding: 0% 6% 3% 5% !important;
+}
+/*espacios de los servicios*/
+.espacioservicios{
+    padding-top: 2% !important;
+    padding-left: 2% !important;
+    padding-right:2% !important;
+    padding-bottom: 2% !important;
+}
+/*responsive desing*/
+@media (max-width:1199px){
+    .navidadservicios1{
+        padding-top: 20% !important;
+    }
+}
+
+
+
+/*contenedor 3*/
+/*fondo*/
+.informacionlinea{
+    background: url("../img/bg.jpg")no-repeat center  !important;
+    background-size: cover !important;
+    height: 400px !important;
+}
+/*visibilidad*/
+.colorvisible{
+    background: rgba(191, 191, 191, .7) !important;
+}
+/*distancia arbol*/
+.distanciaarbol{
+    padding-top: 2% !important;
+}
+/*distancia del texto*/
+.distanciatextos{
+    padding-top: 10% !important;
+}
+/*estilos del boton*/
+.buttondow{
+    padding: 1% !important;
+    font-size: 20px !important; 
+    font-weight: bold;
+    margin-top: 3% !important;
+}
+/*estilos del tema*/
+.informacionp{
+    font-size: 15px !important;
+    padding-top: 3% !important;
+    padding-right: 25% !important;
+    color: #bbbbbb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*responsive deign*/
+@media (max-width: 767px){
+    .distanciaarbol{
+        width: 200px;
+        height: 200px;
+    }
+    .informaciontitulo{
+        font-size:25px !important ;
+    }
+    .informacionp{
+        font-size:15px !important ;
+    }
+    .buttondow{
+        font-size:15px !important ;
+    }
+    .distanciatextos{
+        padding-left: 6% !important;
+    }
+}
+
+@media (max-width: 450px){
+    .distanciaarbol{    
+        position: absolute;
+        visibility: visible;
+        z-index: 0;
+        opacity: 0.5;
+        padding-left: 4% !important;
+    }
+    .informaciontitulo{
+        font-size:25px !important ;
+    }
+    .informacionp{
+        font-size:15px !important ;
+    }
+    .buttondow{
+        font-size:15px !important ;
+    }
+    .distanciatextos{
+        padding-left: 6% !important;
+    }
+    .tamañoarbol{
+        padding-top: 12% !important;
+        width: 340px !important;
+        height: 350px !important;
+    }
+}
+@media (max-width: 325px){
+    .distanciaarbol{    
+        position: absolute;
+        visibility: visible;
+        z-index: 0;
+        opacity: 0.5;
+    }
+    .tamañoarbol{
+        padding-top: 12% !important;
+        width: 280px !important;
+        height: 350px !important;
+    }
+}
+
+
+/*contenedor 4*/
 
 
 /*footer*/
 /*fondo*/
 .site-footer{
     background-color:#26272b;
+    padding:45px 0 20px;
     font-size:15px;
     line-height:24px;
     color:#737373;
@@ -22,10 +614,7 @@ h6{
 /*espacio*/
 .espaciofooter3{
     padding: 3% 5% 3% 5% !important ;
-}
-/*espacio*/
-.listaulsocial{
-    padding-left: 0% !important;
+
 }
 /*eliminacion de estilos de la lista*/
 .listaopcion{
